@@ -8,9 +8,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 
 load_dotenv()
-
-#test (вношу изменения)
-
+#сейчас имитирую что кто то другой сделал изменения
 RABBIT_MQ_HOST = os.getenv('RABBIT_MQ_HOST')
 RABBIT_MQ_USERNAME = os.getenv('RABBIT_MQ_USERNAME')
 RABBIT_MQ_PASSWORD = os.getenv('RABBIT_MQ_PASSWORD')
